@@ -1,0 +1,118 @@
+---
+title: "论文阅读笔记"
+author:
+  - 薛英杰
+documentclass: ctexart
+output:
+  rticles::ctex:
+    fig_caption: yes
+    number_sections: yes
+    toc: yes
+classoption: "hyperref,"
+---
+
+# The competitieve landscape of high-frequency trading firms
+```
+Ekkehart Boehmer
+Lee Kong Chain School of Business, Singapore Management University
+Dan Li
+Faculty of Business and Economics,University of Hong Kong
+Gideon Saar
+Samuel Curits Johnson Graduate School of Management, Cornell University
+```
+
+##文章主要内容
+
+   1、高频交易公司生产的产品是私有的秘密策略，检验了高频交易行业的产品差异程度。
+   
+   2、使用主成分分析法提取了多个高频交易公司潜在的共同策略，发现高频交易的策略可以分为三类，在此基础上研究了每种策略的竞争如何影响市场环境以及交易场所的变动如何影响短期波动性
+
+#Overview of Coporate Finance
+
+## the main theory
+
+the dominat Arrow-Debreu general equilibrium model of frictionless markets cold prove to be a powerfull tool for anlyzing the pricing of claims in financial markets,but said little about firms' finacial choices and thier governance. to the extent that financial claims' returns
+depend on some choices such as investment, these choices , in the complete market paradigm of Arrow-Debreu, are assumed to be contactible and therefore are not affected by moral hazard^[阿罗德布鲁的无摩擦市场一般均衡模型是分析金融市场求偿权定价的有力工具，其没有涉及公司融资和
+治理，求偿权所得的收益取决于融资方式的选择，阿罗德布鲁模型假设一切都在合同之中，不受道德风险影响，从这个角度看，模型主要在研究风险收益在投资者之间的配置问题].
+
+Modigliani and Miller in two papers(1958,1963)^[Modigliani, F. and M. Miller. 1958. The cost of capital, corporate finance, and the theory of investment. American Economic Review 48:261–297.] ^[Modigliani, F. and M. Miller. 1963. Corporate income taxes and the cost of capital: a correction. American Economic Review 53:433–443] proved that under some conditions a firm's financial structure is irrelevant. the value financial claim is equal to the value of the random return of the claims computed at the Arrow-Debreu price, the total value is equal to 
+the sum of the values of random return of the firm computed ate the Arrow-Debreu price, in other word, the size of pie is unaffected by the
+way it is carved^[Modigliani and miller 的观点都是在Arrow-Debreu general equilibrium model的范式下讨论，因此，一般均衡模型创造了一个良好的无摩擦市场环境，在此环境下，参与者完全竞争，不存在交易成本、税收和信息不对称问题，要进一步研究就需要放开这些假设].we we have little to say about ^[经典表达：\color{red} we have little to say about 对什么没有发言权]firm's financial choices and governance in Modigliani-Miller Theorem.
+
+In order to investigate the determinants of financial strunctures, these assumptions need to be relaxed, In particular, the assumption of that the size of pie is unaffected by the way it is carved have to be duscarded. the principal direction of inquiry since the 1980s(Jensen and Meckling 1976^[Jensen, M. and W. R. Meckling. 1976. Theory of the firm,managerial behaviour, agency costs and ownership structure.
+Journal of Financial Economics 3:305–360.];Nyers 1997^[Myers, S. 1977. The determinants of corporate borrowing.Journal of Financial Economics 5:147–175];Ross 1977^[Ross, S. 1977. The determination of financial structure: the incentive signalling approach. Bell Journal of Economics 8:23–40.]) has been to introduce agency problems at various levels of the corporate structure
+
+#Asset pricing
+```
+John H.cocoharane
+```
+##资产定价主要思想
+资产定价理论尝试着理解对不确定支付求尝的价格或价值，低价格意味着高回报，因此，资产定价理论可以认为是解释为什么一些资产比其他资产支付更高的回报。
+
+评估一个资产，我们必须考虑两种因素：（1）支付的延迟（2）支付的风险。评估时间对价值的影响并不困难，因此，风险修正对资产价值的决定更加重要^[例如：过去50年中，美国股市平均收益9%，利息收入只有1%，剩余8%的溢价来源于风险]，不确定性或风险的修正使得资产定价更加有趣并富有挑战性。资产定价的理论来源于一个简单的概念：价格等于支付折现的期望。
+
+资产定价有两种方式：（1）绝对定价^[例如Fama等提出的因子模型] （2）相对定价^[Blak-Sholes期权定价模型]。绝对定价是通过评估宏观经济基本面的风险来源进行定价，相对定价是说明在给定其他资产价格的时候，关于某种具体资产的价值我们可以知道什么？绝对资产定价的核心和未完成的任务是了解和衡量驱动资产价格的总体或宏观经济风险的来源。
+
+我们对金融的了解都是以宏观经济为基础,这意味着把投资与利率挂钩的目的是毫无希望的^[经典表达：\color{red}I think that what we are learning about finance must feed back on macroeconomics，this means that attempts to line investment up with intrest rates are pretty hopeless] ——许多资本成本的变化都来自风险溢价，比如，风险厌恶的度量必须相当地高，人们疯狂的购买股票。宏观经济学追求完美预测均衡，但大多数风险溢价意味着波动是一阶效应，并不是二阶效应，一般宏观经济模型预测人们并不关心经济周期，资产定表明他们确实如此——他们放弃了丰厚的收益溢价为了避免资产在经济衰退中下跌^[they forego substantial return premia to avoid assets that fall in recessions]。整个资产定价理论可以用如下两个方程概括：
+
+$p_t=E(m_{t+1}x_{t+1})$     $m_{t+1}=f(data,parameters)$
+
+其中，$p_t=$asset price,$x_{t+1}=$asset payoff,$m_{t+1}=$stochastic discount factor,使用折现因子和矩条件方法的优势在于他们简单性和一般化，股票，债券、期权三种不同的理论现在都可以看做资产定价理论的三个特例， 因此，一般化的资产定价理论可以应用在每一种特殊的领域。同时，折现因子的思考比思考投资组合更简单，折现因子方法与状态空间几何相联系，替代了通常的均值-方差几何。
+
+##Consumption-Based Model and Overview
+投资者必须决定自己储蓄多少、消费多少以及持有什么投资组合，最基本的定价公式来自于做出决定的一阶条件，今天少消费一点并且多购买一点资产的边际效用损失等于未来多消费一点资产支付所获得的效用^[经典表达：\color{red} the marginal utility loss of consumuming a little less today and buying a little more of the asset should equal the marginal utility gain of consuming a little more of the asset's payoff in the future] 如果价格和支付不满足这个关系，投资者应该多买或者少买资产，因此，资产的价格应该等于资产支付价值贴现的期望。
+
+\color{red} 利率与期望边际效用增长有关，因此，与消费路径也有关，在高实际利率的时候，储蓄，购买资产，然后在未来消费更多是更有意义的，高利率应该与增长的消费期望联系起来。重要的是资产价格的风险调整是资产收益和边际效用的协方差以及资产收益与消费的协方差驱使
+
+\color{black}假设投资者可以按他的意愿以价格$p_t$自由地买卖资产，每单位资产获得$x_{t+1}$的收益，用$e$代表消费者原始的消费水平，$\xi$代表消费选择购买的资产数量，$\beta$是主观贴现因子^[\color{red}自己的思考：$\beta$是对未来效用的贴现，代表消费者的不耐心程度，消费者越不耐心，$\beta$越小]，则消费选择买卖多少可以被描述如下：
+
+\centerline{$max  \mu(c_t)+E_t\big[ \beta \mu(c_{t+1})\big]$} 
+
+\centerline{ s.t $c_t=e_t-p_t\xi$}
+
+\centerline{$c_{t+1}=e_{t+1}-x_{t+1}\xi]$}
+
+将约束条件带入目标方程，对$\xi$求一阶倒数并令其等于0，我们将获得最优消费和投资组合选择的一阶条件：
+
+\centerline{$p_t \mu^\prime(c_t)=E_t\big[ \beta \mu^\prime(c_{t+1})x_{t+1}\big]$} 
+
+or
+
+\centerline{$p_t =E_t\big[ \beta \frac{\mu^\prime(c_{t+1})}{\mu^\prime(c_t)}x_{t+1}\big]$} 
+
+我们将资本定价方程分解为：
+
+\centerline{$p_{t} =E_t(m_{t+1}x_{t+1})$}
+
+\centerline{$m_{t+1}=\beta\frac{\mu^\prime(c_{t+1})}{\mu^\prime(c_t)}$}
+
+$m_{t+1}$是随机贴现因子
+
+共同贴现因子的随机成分与资产收益的关系构成了特质风险修正，$m_{t+1}$ 被称为边际替代率、定价核、测度变化或状态价格密度
+
+###均值-方差边界
+
+所有的资产收益都在一个均值-方差边界内，在边界上的资产和贴现因子是完全相关的，资产定价理论关心的是资产收益的均值和方差，但收益的均值和方差集合是有限的。所有通过折现因子定价的资产都必须满足
+
+\centerline{$|E(R^i)-R^f|\leq \frac{\sigma(m)}{E(m)}\sigma(R^i)$}
+
+给定资产收益$R^i$,$R^f=\frac{1}{E(m)}$,则有
+
+\centerline{$1=E(mR^i)=E(m)E(R^i)+\rho_{m,R^i}\sigma(R^i)\sigma(m)$}
+
+\centerline{$E(R^i)=R^f-\rho_{m,R^i}\frac{\sigma(R^i)}{E(m)}\sigma(m)$}
+
+均值-方差边界的含义：
+
+（1）资产收益的均值和方差必须在三角形区域内部，三角形边界被称作均值-方差边界。
+
+（2）边界上的所有收益和贴现因子完全相关
+
+（3）所有边界上的收益彼此完全相关
+
+（4）任何均值-方差有效收益都包含所有的定价信息，给定平均方差有效收益率和无风险收益率，我们可以找到一个折价因子，对所有资产进行定价，反之亦然。
+
+（5）给定折现因子，我们可以构建一个单一的$\beta$表示，因此，期望收益可以用任何均值-方差有效收益以单一的$\beta$表示来描述
+（6）我们可以把一个收益分解成系统性成分和随机成分，系统性部分完全和贴现因子有关，所以可以被定价。
+
+战后美国数据表明，历史均值-标准差边界的斜率远远高于理性风险厌恶和消费波动的估计^[这就是所说的股票溢价之谜]，过去50年美国股票平均收益9%，标准差为16%，而实际国库券收益只有1%。
